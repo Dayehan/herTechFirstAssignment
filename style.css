@@ -1,0 +1,25 @@
+.imageCharacter{
+    text-align: center;
+     font-weight: 700;
+}
+.topic{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    animation-name: winner;
+    animation-duration: 10s;
+    animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes winner {
+    0%   {color:rgb(0, 0, 0); left:0px; top:0px;}
+    25%  {color:rgb(0, 255, 55); left:200px; top:0px;}
+    50%  {color:rgb(247, 0, 255); left:200px; top:200px;}
+    75%  {color:rgb(128, 0, 85); left:0px; top:200px;}
+    100% {color:pink; left:0px; top:0px;}
+  }
